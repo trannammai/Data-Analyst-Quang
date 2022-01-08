@@ -1,4 +1,4 @@
---- Créez une table qui nous permettra de connaître le temps passé sur le site de location de dvd.
+--- Create a table that will allow us to know the time spent on the DVD rental site.
 create table if not exists LOG_USER_SITE(
 	account_id serial primary key,
 	first_name VARCHAR(45) not null,
